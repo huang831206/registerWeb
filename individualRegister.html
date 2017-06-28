@@ -1,0 +1,173 @@
+    <!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<!--
+The Template was design by TEMPLATED
+http://templated.co
+Released for free under the Creative Commons Attribution License
+
+Name       : Plushiness 
+Description: A two-column, fixed-width design with dark color scheme.
+Version    : 1.0
+Released   : 20131117
+
+-->
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>第一屆中央泳泳盃報名網站</title>
+<meta name="keywords" content="" />
+<meta name="description" content="" />
+<link href="http://fonts.googleapis.com/css?family=Source+Sans+Pro:200,300,400,600,700,900" rel="stylesheet" />
+<link href="default.css" rel="stylesheet" type="text/css" media="all" />
+<link href="fonts.css" rel="stylesheet" type="text/css" media="all" />
+    
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+<!--[if IE 6]><link href="default_ie6.css" rel="stylesheet" type="text/css" /><![endif]-->
+
+    <script src="main.js"></script>
+    
+</head>
+<body>
+<div id="header-wrapper">
+	<div id="header" class="container">
+		<div id="logo">
+			<span class="icon icon-tint"></span>
+			<h1><a href="#">第一屆&nbsp;&nbsp;中央泳泳盃&nbsp;&nbsp;游泳比賽</a></h1>
+			<span>Design by <a href="https://www.facebook.com/958933480856349/" rel="nofollow" target="_blank">NCU Swimming</a></span>
+            <br>
+<!--            <span class="icon icon-tint"></span>-->
+		</div>
+		<div id="triangle-up"></div>
+	</div>
+</div>
+<div id="menu-wrapper">
+		<div id="menu">
+			<ul>
+				<li><a href="groupRegister.html#menu" accesskey="1" title="">接力報名</a></li>
+				<li class="current_page_item"><a href="individualRegister.html#menu" accesskey="2" title="">個人項報名</a></li>
+				<li><a href="index.html" accesskey="3" title="">關於泳泳盃</a></li>
+				<li><a href="aboutUs.html#menu" accesskey="4" title="">關於我們</a></li>
+				<li><a href="result.html#menu" accesskey="5" title="">道次分配</a></li>
+			</ul>
+		</div>
+</div>
+<div id="wrapper">
+	<div id="featured-wrapper">
+	
+		<div class="extra2 container">
+			<div class="ebox1">
+				<div class="hexagon">
+                    <span class="icon icon-lightbulb"></span>
+<!--                    <i id="icon-face" class="material-icons">face</i>-->
+                </div>
+				<div class="title">
+					<h2>個人項報名</h2>
+					<span class="byline">
+                        <ul id="rule2">
+                            <li>1. 一人至多報名3項</li>
+                            <li>2. 除中央大學在學學生以外，其餘皆為表演組</li>
+                            <li>3. 表演組請在系級填上" 表演組 "</li>
+                            <li>4. 聯絡人資訊及項目一為必填</li>
+                            <li>5. 每位選手酌收30元清潔費，不與接力重複收取。</li>
+                            <li>6. 所有成績皆將記錄並公布，前三名頒發獎狀，未達4人則取第一名</li>
+                            <li>7. 表演組免收費用，但成績不列入計算</li>
+                            <li>8. 報名截止：5/6(五) 23:59</li>
+                            <li>&nbsp;</li>
+                            <li>範例:</li>
+                            <li>聯絡人姓名: 黃小閔&nbsp;&nbsp;聯絡人E-mail: ***@gmail.com</li>
+                            <li>黃小閔&nbsp;&nbsp;資管三&nbsp;&nbsp;男&nbsp;&nbsp;50m自由式&nbsp;&nbsp;100m蝶式</li>
+                        </ul>
+                    
+                    
+                    
+                    </span>
+				</div>
+				<p>
+                
+                
+                    <div>
+                        
+                    <form id="form1" action="test.php" method="post">
+                        
+                        <table id="contact">
+                            <tr>
+                                <td>聯絡人姓名</td>
+                                <td>聯絡人E-mail</td>
+                            </tr>
+                            <tr>
+                                <td><input id="contact_name" name="contact_name"></td>
+                                <td><input id="contact_addr" name="contact_addr"></td>
+                            </tr>
+                        </table>
+                        
+                        <hr>
+                        
+                        <button id="addRow" class="mybtn" type="button" onclick="">新增一名選手</button>
+
+                        
+                        
+                        <br>
+                        <table id="table" class="table" action>
+                        
+                            <tr>
+                                <td>姓名</td>
+                                <td>系級</td>
+                                <td>性別</td>
+                                <td>項目一(必填)</td>
+                                <td>項目二</td>
+                                <td>項目三</td>
+                                <td></td>
+                            </tr>
+                            <tr class="odd" onmouseover="this.bgColor='#ffcc33'" onmouseout="this.bgColor='#FFFFFF'">
+                                <td><input name="name[]" class="name" type="text" /></td>
+                                <td><input name="std_grade[]" class="grade" type="text" /></td>
+                                <td>
+                                    <select name="gender[]" class="gender">
+                                        <option value="MALE">男</option>
+                                        <option value="FEMALE">女</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="event1[]" id="event1" class="event1">
+                                        <option value=0 >選擇項目</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="event2[]" id="event2" class="event2">
+                                        <option value=0>選擇項目</option>
+                                    </select>
+                                </td>
+                                <td>
+                                    <select name="event3[]" id="event3" class="event3">
+                                        <option value=0>選擇項目</option>
+                                    </select>
+                                </td>
+                                <td></td>
+                            </tr>
+                            
+                        </table>
+                        <button id="send" class="mybtn" type="button" onclick="submit_click()">submit</button>
+                        <br>
+                        
+                    </form>                        
+    
+                </div>
+                       
+                </p>
+<!--				<a href="#" class="button">我是按鈕1</a>-->
+			</div>		
+
+
+		</div>	
+
+	</div>
+</div>
+<div id="stamp" class="container">
+	<div class="hexagon"><span class="icon icon-wrench"></span></div>
+</div>
+<div id="copyright" class="container">
+	<p>&copy; NCU Swimming. All rights reserved. | Photos by <a href="https://www.facebook.com/958933480856349/" target="_blank">NCU SWIM</a> | Source <a href="http://templated.co" rel="nofollow" target="_blank">TEMPLATED</a>.</p>
+    <p>Design by &nbsp;&nbsp; Ben Huang</p>
+</div>
+</body>
+</html>
